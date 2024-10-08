@@ -138,3 +138,47 @@ ata analysts aiming to maximize their career
 otential should consider developing a diverse skill
 et that includes both high-paying specialized skills
 nd widely demanded foundational skills.
+
+
+# The Analysis
+## 4. What is the most optimat skill to learn for
+Data Analysts?
+#### Visualize Data
+
+```python
+from adjustText import adjust_text
+import matplotlib.pyplot as plt
+
+
+plt.scatter(df_DA_high_demand['skill_percent'],df_DA_high_demand['median_salary'] )
+
+plt.show()
+
+```
+#### Results
+
+![Most Optimal Skills for Data Analysts in the US](3_Project\images\optimal_skills.png)
+
+*A scatter visualizing the most optimal
+skills (high paying & high demand) for data
+analysts in the US.*
+
+#### Insights:
+- The scatter plot shows that most of the
+`programming `
+skills (colored blue) tend to cluster at
+higher salary levels compared to other categories,
+indicating that programming expertise might Offer
+greater salary benefits within the data analytics field.
+- Analyst tools (colored green), including Tableau and
+Power Bl, are prevalent in job postings and Offer
+competitive salaries, showing that visualization and
+data analysis software are crucial for current data
+roles. This category not only has good salaries but is also versatile across types of data tasks
+
+- — The database skills (colored orange) ,ysuch as
+Oracle and SQL Server, are associated WIth some of
+the highest salaries among data analyst tools.
+This indicates a significant demand and valuation
+for data mana ement and manipulation expertise in
+the industry .
